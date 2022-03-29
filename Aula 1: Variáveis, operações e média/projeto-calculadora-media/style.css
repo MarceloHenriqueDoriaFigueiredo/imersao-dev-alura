@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-color:rgb(44, 117, 190);
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  background:linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.70)100%), url("https://cdn.pixabay.com/photo/2021/04/10/21/03/yellow-6168124_960_720.jpg");
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}  
+.page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+}  
+.page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+}
+  
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.section-nota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.section-nota input {
+    margin: 5px;
+    border-radius: 8px;
+    height: 30px;
+}
+#resultado{
+    background: rgba(0,0,0,.70);
+}
